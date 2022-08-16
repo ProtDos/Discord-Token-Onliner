@@ -38,8 +38,11 @@ status = status[0]  # 0: Online, 1: Do Not Disturb, 2: Idle
 with open("tokens.txt", "r") as f:
     al = f.read().split("\n")
     if len(al) <= 1:
-        print(f"{Fore.RED}[!] No tokens found in tokens.txt")
-        exit()
+        if len(al[0]) <= 10:
+            print(f"{Fore.RED}[!] No tokens found in tokens.txt")
+            exit()
+        else:
+            print(f"{Fore.GREEN}[i] 1 token found in tokens.txt")
     else:
         print(f"{Fore.GREEN}[i] {len(al)} tokens found in tokens.txt")
 
@@ -104,13 +107,14 @@ def online(token, game, type, status):
     while True:
         time.sleep(heartbeat_interval / 1000)
         try:
-            ws.send(json.dumps(ack))
             print(f"{Fore.GREEN}[i] {token} is online")
+            ws.send(json.dumps(ack))
+
         except Exception as e:
             print("[!] Error: " + str(e))
             break
 
 executor = ThreadPoolExecutor(max_workers=1000)
 for token in open("tokens.txt", "r+").readlines():
-    threading.Thread(target=lambda: online(token.replace("\n", ""), GAME, type_, status)).start()
+    threading.Thread(target=online, args=(token, GAME, type_, status)).start()
 print(f"{Fore.GREEN} [+] Tokens are online")
