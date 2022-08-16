@@ -25,6 +25,13 @@ python3 main.py
 - requirements.txt installed
 - discord user tokens
 
+## Features
+- unlimited tokens
+- locked tokens work
+- tokens won't get banned
+- fast
+- personal
+
 ## Warning
 This didn't get patched at this moment: `8/16/2022`. If it did, please make an issue. Feel free to fork it and make pull requests. 
 Your tokens won't get banned from discord at this time. 
