@@ -40,6 +40,7 @@ python3 main.py
 ## Random mode
 If you set `random=True`, the random mode will be enabled. It'll will look like this:
 ![imgg](https://user-images.githubusercontent.com/69071809/185407188-80f7d931-f3e2-4911-a38f-530a4926c158.png)
+
 Else you can specify the statuc and text by your own.
 
 ## Warning
