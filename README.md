@@ -38,7 +38,7 @@ python3 main.py
 - personal
 
 ## Error Mode
-If you get any errors try running `error_main.py`. If it doesn't help either, please make an issue or contact me.
+If you get any errors try running `error_main.py`. If it doesn't help either, please make an [issue](https://github.com/ProtDos/Discord-Token-Onliner/issues/new) or contact me.
 
 
 ## Random mode
