@@ -37,6 +37,11 @@ python3 main.py
 - fast
 - personal
 
+## Random mode
+If you set `random=True`, the random mode will be enabled. It'll will look like this:
+![imgg](https://user-images.githubusercontent.com/69071809/185407188-80f7d931-f3e2-4911-a38f-530a4926c158.png)
+Else you can specify the statuc and text by your own.
+
 ## Warning
 This didn't get patched at this moment: `8/16/2022`. If it did, please make an issue. Feel free to fork it and make pull requests. 
 Your tokens won't get banned from discord at this time. 
