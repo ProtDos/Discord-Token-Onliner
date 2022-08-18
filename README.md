@@ -25,6 +25,10 @@ python3 main.py
 - requirements.txt installed
 - discord user tokens
 
+## Replit
+- This bot works on replit too. 
+- If any errors occur please contact me. I am free to help.
+
 ## Features
 - unlimited tokens
 - locked tokens work
