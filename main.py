@@ -32,6 +32,7 @@ status = ['online', 'dnd', 'idle']
 GAME = "MY TEXT"  # enter what you want the status to be
 type_ = types[0]  # 0: Playing, 1: Streaming, 2: Watching, 3: Listening
 status = status[0]  # 0: Online, 1: Do Not Disturb, 2: Idle
+stream_url = ""  # URl when choosing "Streaming"
 
 ############################################ Stop changing here
 
@@ -62,7 +63,7 @@ def online(token, game, type, status):
         gamejson = {
             "name": game,
             "type": 1,
-            "url": "https://www.twitch.tv/discord.gg/LilForkTokens"
+            "url": stream_url
         }
     elif type == "Listening":
         gamejson = {
