@@ -37,6 +37,10 @@ python3 main.py
 - fast
 - personal
 
+## Error Mode
+If you get any errors try running error_main.py. If it doesn't help either, please make an issue or contact me.
+
+
 ## Random mode
 If you set `random=True`, the random mode will be enabled. It'll will look like this:
 
