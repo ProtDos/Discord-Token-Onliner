@@ -16,8 +16,9 @@ python3 main.py
 2. Install the requirements
 3. Enter your tokens in `tokens.txt`
 4. Change text, type and status in `main.py` if you want
-5. run: `python3 main.py`
-6. Enjoy
+5. Choose if you want random status or personal
+6. run: `python3 main.py`
+7. Enjoy
 
 ## Requirements
 - Python 3.6+
