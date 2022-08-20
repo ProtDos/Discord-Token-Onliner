@@ -30,6 +30,11 @@ python3 main.py
 - This bot works on replit too. 
 - If any errors occur please contact me. I am free to help.
 
+## Confusion
+![1E286F3A-CDB3-4ED9-B923-F5D1C90164F4](https://user-images.githubusercontent.com/69071809/185761601-99d304b6-9d7b-4d30-84b6-6bebfdc03446.png)
+
+Don't get confused about this. It's current bug, I'll fix it asap. The bot still works. 
+
 ## Features
 - unlimited tokens
 - locked tokens work
